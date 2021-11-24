@@ -1,62 +1,69 @@
-body{
-    background-color: rgb(107, 6, 6);
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+body {
+  font-size: 16px;
+  background-color: #9F9AA3;
+  font-family: 'Helvetica', sans-serif; 
 }
-.navbar{
-    background-color: rgb(18, 252, 240);
-    min-height: 107px;
+
+/** HEADER **/
+#header-nav {
+  background-color: #CAE2FC;
+  border-radius: 0;
+  border: 0;
 }
-.navbar-brand h1{
-    color: darkblue;
-    font-size: 40px;
+.navbar-brand {
+  padding-top: 25px;
 }
-.container{
-    color: white;
+.navbar-brand h1 { /* Food, LLC */
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
 }
-.text-center{
-    margin-bottom: 39px;
-    font-size: 36px;
-}
-.section-1{
-  border: 2px solid cyan;
-  padding: 0px 30px 10px;
-  position: relative;
-  margin-bottom: 70px;
-  background-color: rgb(54, 54, 54);
-}
-.section-title{
-    margin-top: 40px;
-    text-align: center;
-    font-size: 22px;
-}
-.content{
-    margin-top: 32px;
-}
-.navbar-toggle{
-    border: 1px solid white;
-    margin-top: 38px;
-    margin-right: 31px;
-}
-.icon-bar{
-    background-color: white;
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
 }
 #nav-list {
-    margin-top: 10px;
-  }
-  #nav-list a {
-    color: #951C49;
-    text-align: center;
-  }
-  #nav-list a:hover {
-    background: #E7E7E7;
-  }
-  #nav-list a span {
-    font-size: 1.8em;
-  }
-@media (min-width:767px){
-.hidden{
-       display: none;
-    }
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7
+  border-color:black;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/** Main Content **/
+
+h2 {
+  font-style:bold;
+  color:black;
+}
+
+section.container {
+  background-color: #CAE2FC;
+  border:1pt;
+  border-color: black;
+  color: black;
+  height:1000px;
+}
+
+h3 {
+  font-size:16pt;
+}
+p {
+  color:black;
 }
