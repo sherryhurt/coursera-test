@@ -1,69 +1,50 @@
-body {
-  font-size: 16px;
-  background-color: #9F9AA3;
-  font-family: 'Helvetica', sans-serif; 
-}
-
-/** HEADER **/
 #header-nav {
-  background-color: #CAE2FC;
+  background-color: #999999;
   border-radius: 0;
   border: 0;
 }
-.navbar-brand {
-  padding-top: 25px;
-}
-.navbar-brand h1 { /* Food, LLC */
-  color: black;
-  font-size: 1.5em;
+#header-nav .navbar-brand a{
+  color: #ccc;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-#nav-list {
-  margin-top: 10px;
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
 }
-#nav-list a {
-  color: black;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7
-  border-color:black;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
 }
 
-/** Main Content **/
-
-h2 {
-  font-style:bold;
-  color:black;
+#nav-list{
+  background: white;
+  border: 1px solid #e7e7e7;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-section.container {
-  background-color: #CAE2FC;
-  border:1pt;
-  border-color: black;
-  color: black;
-  height:1000px;
+#nav-list hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #e7e7e7;
 }
 
-h3 {
-  font-size:16pt;
+#header-nav span.icon-bar{
+  background: #e7e7e7;
 }
-p {
-  color:black;
+
+#header-nav .navbar-toggle:hover span.icon-bar, #header-nav .navbar-toggle:focus span.icon-bar{
+  background: #888;
+}
+
+.menu-header{
+  margin-bottom: 40px;
+}
+.menu-content{
+  background: #999999;
+  margin-bottom: 20px;
 }
